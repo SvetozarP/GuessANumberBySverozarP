@@ -3,7 +3,7 @@ import random
 computer_number = random.randint(1, 100)
 
 while True:
-    player_guess = input("Guess the number 1 - 100")
+    player_guess = input("Guess the number 1 - 100: ")
 
     if not player_guess.isdigit() or int(player_guess) < 1 or int(player_guess) > 100:
         print("Invalid Input! Try again...")
